@@ -1,0 +1,60 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #3f3f91;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #3f3f91;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a5ac2;
+}
+
+/* Tabla de resultados */
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+th, td {
+    border: 1px solid #555;
+    padding: 8px 12px;
+    text-align: right;
+}
+
+th {
+    background-color: #3f3f91;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fbd9d9;
+}

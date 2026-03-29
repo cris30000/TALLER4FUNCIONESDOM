@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #222;
+  cursor: crosshair;
+}
+
+.trail {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #ff4081;
+  border-radius: 50%;
+  pointer-events: none; /* para que no interfiera con clicks */
+  opacity: 0.8;
+  transition: transform 0.1s, opacity 0.3s;
+}

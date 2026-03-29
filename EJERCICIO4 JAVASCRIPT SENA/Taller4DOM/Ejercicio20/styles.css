@@ -1,0 +1,31 @@
+#email {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+#mensaje {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Los colores del borde los aplico en */
+
+body {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+    }
+    form {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      width: 300px;
+      margin: 50px auto;
+      text-align: center;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    }

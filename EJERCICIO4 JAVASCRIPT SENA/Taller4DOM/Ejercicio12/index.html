@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simple</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        input, button { margin: 5px; padding: 10px; font-size: 16px; }
+        #resultado { margin-top: 10px; font-weight: bold; }
+
+
+         /* Aquí agregamos los colores a los botones */
+    #sumar {
+        background-color: #4CAF50; /* Verde */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #restar {
+        background-color: #f44336; /* Rojo */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #multiplicar {
+        background-color: #ff9800; /* Naranja */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #dividir {
+        background-color: #9c27b0; /* Morado */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* Efecto al pasar el mouse */
+    button:hover {
+        opacity: 0.8;
+    }
+    </style>
+    
+</head>
+<body>
+    <h2>Calculadora Sencilla</h2>
+    <input type="number" id="numero1" placeholder="Número 1">
+    <input type="number" id="numero2" placeholder="Número 2"><br>
+
+    <button id="sumar">Sumar</button>
+    <button id="restar">Restar</button>
+    <button id="multiplicar">Multiplicar</button>
+    <button id="dividir">Dividir</button>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

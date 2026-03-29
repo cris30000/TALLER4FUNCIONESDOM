@@ -1,0 +1,84 @@
+/* Reset básico */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+  width: 500px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Título */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Board */
+#board {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  height: 180px;
+  overflow-y: auto;
+  background-color: #fafafa;
+  margin-bottom: 15px;
+}
+
+/* Cada comentario */
+#board p {
+  background: #e8f0fe;
+  padding: 8px 10px;
+  border-radius: 6px;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  color: #444;
+}
+
+/* Inputs */
+select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.3s;
+}
+
+/* Focus bonito */
+select:focus, textarea:focus {
+  border-color: #9269f2;
+}
+
+/* Botón */
+button {
+  width: 100%;
+  padding: 10px;
+  background: #22f17f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+/* Hover */
+button:hover {
+  background: #357abd;
+}

@@ -1,0 +1,41 @@
+<!--fUNCION CUADRATICA-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Calculadora de Raíces Cuadráticas</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; max-width: 450px; }
+        input { width: 50px; margin-right: 10px; }
+        #resultado { margin-top: 15px; font-weight: bold; }
+        label { font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<h2>calculando...</h2>
+<p>Encontrando  las raíces de una ecuación de la forma: <br>
+<em>ax<sup>2</sup> + bx + c = 0</em></p>
+
+<!--<p><em>a, b, y c deben ser enteros entre -99 y 99, y a debe ser distinto de cero.</em></p>-->
+<p> Nota: a debe ser distinto de cero</p>
+
+<!--pedimos al usuario ingreso los valores de a,b y c-->
+<label for="a">a:</label>
+<input type="number" id="a" min="-99" max="99" />
+<label for="b">b:</label>
+<input type="number" id="b" min="-99" max="99" />
+<label for="c">c:</label>
+<input type="number" id="c" min="-99" max="99" />
+
+<br><br>
+
+<button id="calcular">Calcular raíces</button>
+
+<div id="resultado"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

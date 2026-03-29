@@ -1,0 +1,29 @@
+<!--Ejercicio 4
+Escribir un script que permita calcular el área de
+un triángulo, se debe capturar los datos de la
+base y altura por medio de un formulario y al
+hacer clic en un botón mostrar el resultado.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULAR AREA</title>
+</head>
+<body>
+    <h1>Calcular</h1>
+    <form id="Formulario para ingresar datos del triangulo">
+        <label for="base">Base</label>
+        <input type="number" id="base" placeholder="Ejemplo 10" required>
+
+        <label for="altura">Altura</label>
+        <input type="number" id="altura" placeholder="Ejemplo 5" required>
+
+        <button type="button" id="calcular">Calcular Area </button>
+
+    </form>
+    <h2 id="resultado"></h2>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!--- creando formulario seleccionar un dormitorio
+ y dar un cometario y agrgarlo al blog-->
+
+<head>
+  <meta charset="UTF-8">
+  <title>Residence Hall Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <h2>Park University Residence Hall Blog Board</h2>
+
+  <div id="board"></div>
+
+  <label>Seleccionar un dormitorio:</label>
+  <select id="dorm">
+    <option value="">-- Selecciona --</option>
+    <option value="Copley Quad">Copley Quad</option>
+    <option value="Chesnut Hall">Chesnut Hall</option>
+  </select>
+
+  <br><br>
+
+  <label>su comentario:</label>
+  <textarea id="comment" rows="4"></textarea>
+
+  <br><br>
+
+  <button id="addBtn">Add</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>

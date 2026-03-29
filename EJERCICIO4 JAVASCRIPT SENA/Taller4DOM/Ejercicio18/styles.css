@@ -1,0 +1,9 @@
+#cuadro {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: absolute; /* necesario para moverlo con 'left' */
+    top: 100px;         /* posición vertical */
+    left: 0px;          /* posición inicial horizontal */
+    transition: left 1s; /* animación suave */
+}
